@@ -1,6 +1,6 @@
-# ReelComp: Social Media Video Compilation Automation
+# ReelComp: TikTok Video Compilation Automation
 
-Automate creating video compilations from social media content. Collect videos from TikTok, create compilations with smooth transitions, generate thumbnails, and upload directly to YouTube.
+Automate creating video compilations from tiktok content. Collect videos from TikTok, create compilations with smooth transitions, generate thumbnails, and upload directly to YouTube.
 
 ## ❤️ Sponsor This Project
 
@@ -72,7 +72,7 @@ You can automate the entire process to run weekly (or on any schedule) using a s
 
 ### Example Shell Script
 
-Create a file called `tiktok_weekly.sh` (or use the provided `tiktok_weekly.sh.example`):
+Create a file called `tiktok_weekly.sh`:
 
 ```bash
 #!/bin/bash
