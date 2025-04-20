@@ -1,0 +1,45 @@
+# Core dependencies
+python-dotenv==1.0.0
+pydantic==2.1.1
+loguru==0.7.0
+fastapi>=0.103.1
+uvicorn>=0.23.2
+
+# TikTok API wrapper
+TikTokApi==5.2.2
+requests==2.31.0
+
+# Video processing
+moviepy==1.0.3
+ffmpeg-python>=0.2.0
+numpy==1.25.2
+Pillow==10.0.1
+
+# Thumbnail generation
+opencv-python==4.8.0.76  # For frame extraction and image processing
+
+# YouTube API
+google-api-python-client==2.93.0
+google-auth>=2.22.0
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.0
+
+# Storage
+boto3>=1.28.38  # For AWS S3
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.1
+
+# Development
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.5.1
+
+# Added from the code block
+pydantic-settings==2.0.3
+
+# Browser automation
+playwright==1.51.0

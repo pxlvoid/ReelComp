@@ -1,0 +1,106 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+coverage.xml
+*.cover
+*.py,cover
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application specific
+# User-generated and temp data
+config.json
+*.log
+*.bak
+*.tmp
+
+data/downloaded_videos/
+data/compilations/
+data/thumbnails/
+data/temp/
+data/shorts/
+logs/
+logs/*
+data/*
+credentials/*
+!credentials/.gitkeep
+
+# Except examples and documentation
+!data/assets/
+!data/assets/examples/
+!data/sample_data/
+
+# Do not include user's TikTok URL lists
+tiktok_urls.txt
+*_urls.txt
+
+# YouTube tokens and credentials
+*token*.json
+*token*.pickle
+client_secret*.json
+
+# User scripts (keep only the example)
+tiktok_weekly.sh
+!tiktok_weekly.sh.example
+
+# Ignore all files in the data/ directory
+data/*
+
+# Remove these markdown files from public repo (docs, dev, or private)
+IMPROVEMENTS.md
+prd.md
+crontab-instructions.md
+
+CHANGELOG.md
+final_clean_up.sh
+tiktok_urls.txt
+tiktok_weekly.sh
+tiktok_weekly.sh.example
+final_cleanup.sh
