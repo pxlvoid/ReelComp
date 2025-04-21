@@ -21,6 +21,10 @@ class TikTokConfig(BaseSettings):
     ms_token: Optional[str] = None
     session_id: Optional[str] = None
     
+    # Прокси для доступа к TikTok 
+    # Формат: socks5://user:pass@host:port или http://user:pass@host:port
+    proxy: Optional[str] = None
+    
     # Simplified TikTok configuration (no API credentials needed)
     
     class Config:
